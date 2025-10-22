@@ -37,3 +37,6 @@ bai10.o: bai10.c mylib.h
 bai11.o: bai11.c mylib.h
 	gcc -c bai11.c
 
+clean:
+	rm -f *.o run.exe
+

@@ -1,6 +1,14 @@
 #include <stdio.h>
 
-void xepLoaiHocLuc(float van, float toan, float anh) {
+void xepLoai() {
+    float van, toan, anh;
+    printf("Nhap diem Van: ");
+    scanf("%f", &van);
+    printf("Nhap diem Toan: ");
+    scanf("%f", &toan);
+    printf("Nhap diem Anh Van: ");
+    scanf("%f", &anh);
+
     float diem = (van*2 + toan*2 + anh) / 5;
     printf("Diem trung binh: %.2f\n", diem);
 
@@ -13,4 +21,5 @@ void xepLoaiHocLuc(float van, float toan, float anh) {
     else
         printf("Hoc luc: Gioi\n");
 }
+
 

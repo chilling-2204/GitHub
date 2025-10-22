@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void nhapTu1DenN(int n) {
+void nhapDungThuTu(int n) {
     int so, hopLe;
     do {
         hopLe = 1;

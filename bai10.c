@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void inFibonacci(int n) {
+void inFibo(int n) {
     int a = 0, b = 1, c;
     printf("Day Fibonacci nho hon %d: ", n);
     printf("%d %d ", a, b);
