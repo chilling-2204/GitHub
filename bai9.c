@@ -17,10 +17,4 @@ void nhapTu1DenN(int n) {
     printf("Ban da nhap dung tu 1 den %d!\n", n);
 }
 
-int main() {
-    int n;
-    printf("Nhap n: ");
-    scanf("%d", &n);
-    nhapTu1DenN(n);
-    return 0;
-}
+

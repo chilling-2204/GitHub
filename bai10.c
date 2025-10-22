@@ -14,10 +14,3 @@ void inFibonacci(int n) {
     printf("\n");
 }
 
-int main() {
-    int n;
-    printf("Nhap n: ");
-    scanf("%d", &n);
-    inFibonacci(n);
-    return 0;
-}

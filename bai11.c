@@ -9,10 +9,3 @@ void inTamGiacSao(int n) {
     }
 }
 
-int main() {
-    int n;
-    printf("Nhap N: ");
-    scanf("%d", &n);
-    inTamGiacSao(n);
-    return 0;
-}

@@ -9,10 +9,4 @@ void hienThiTamGiacSo(int x) {
     }
 }
 
-int main() {
-    int x;
-    printf("Nhap x: ");
-    scanf("%d", &x);
-    hienThiTamGiacSo(x);
-    return 0;
-}
+

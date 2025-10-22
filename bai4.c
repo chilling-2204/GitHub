@@ -14,10 +14,3 @@ void xepLoaiHocLuc(float van, float toan, float anh) {
         printf("Hoc luc: Gioi\n");
 }
 
-int main() {
-    float van, toan, anh;
-    printf("Nhap diem van, toan, anh: ");
-    scanf("%f %f %f", &van, &toan, &anh);
-    xepLoaiHocLuc(van, toan, anh);
-    return 0;
-}

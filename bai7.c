@@ -7,10 +7,4 @@ long long tinhGiaiThua(int n) {
     return gt;
 }
 
-int main() {
-    int n;
-    printf("Nhap n: ");
-    scanf("%d", &n);
-    printf("%d! = %lld\n", n, tinhGiaiThua(n));
-    return 0;
-}
+

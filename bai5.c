@@ -15,10 +15,3 @@ void tinhTienDien(int soDien) {
     printf("So tien dien phai tra: %d dong\n", tien);
 }
 
-int main() {
-    int soDien;
-    printf("Nhap so dien tieu thu: ");
-    scanf("%d", &soDien);
-    tinhTienDien(soDien);
-    return 0;
-}
